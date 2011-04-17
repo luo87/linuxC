@@ -6,5 +6,5 @@ int main(){
 	c=++a;
 	d=10*a++;
 
-	printf("b,c,d:%d, %d, %d\n", b, c, d);
+	printf("b, c, d:%d, %d, %d\n", b, c, d);
 }
