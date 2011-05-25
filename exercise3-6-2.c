@@ -1,5 +1,8 @@
+/**
+ *
+ * 题目有错啊
+ * /
 #include <stdio.h>
-#include <string.h>
 
 int main(){
 	int A, B, C, D, E;
@@ -26,9 +29,8 @@ int main(){
 							continue;
 						}
 						E = m;
-						//printf("%d%d%d%d%d\n", A, B, C, D, E);
-						if ( (B==1) + (A==3) == 1 && (B==2) + (E==4) == 1 && (C==1) + (D==2) == 1 && (C==5) + (D==3) == 1 && (E==4) + (A==1) == 1 ){
-						printf("%d%d%d%d%d\n", A, B, C, D, E);
+						if ( (B==2) + (A==3) == 1 && (B==2) + (E==4) == 1 && (C==1) + (D==2) == 1 && (C==5) + (D==3) == 1 && (E==4) + (A==1) == 1 ){
+							printf("%d%d%d%d%d\n", A, B, C, D, E);
 						}
 					}	
 				}	
