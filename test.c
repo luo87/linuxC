@@ -7,7 +7,9 @@ int main(){
 	int *p1 = a;
 	printf("%x\n", p1);
 	printf("%d\n", sizeof(a));
-	//a = a + 4;
+	a = a - 2;
+	p1 = p1 + 2;
 	printf("%x\n", &a[0]);
+	printf("%d\n", *p1);
 	return 0;
 }
