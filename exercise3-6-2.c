@@ -1,7 +1,3 @@
-/**
- *
- * 题目有错啊
- * /
 #include <stdio.h>
 
 int main(){
